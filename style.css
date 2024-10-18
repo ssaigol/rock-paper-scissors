@@ -1,0 +1,85 @@
+body {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+#header {
+    border: 5px solid black;
+}
+
+#main-body {
+    border: solid 5px black;
+    display: flex;
+}
+
+#header-text {
+    text-align: center;
+}
+
+#body-left, #body-right {
+    height: 300px;
+    flex: 1;
+}
+
+#body-left {
+    border-right: 3px dotted black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#instructions-header {
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#instructions {
+    padding: 0 18px;
+    font-style: italic;
+    font-weight: 550;
+    font-size: 24px;
+}
+
+#body-right {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 10px;
+    gap: 10px;
+    flex: 1;
+    /* border: 2px solid black; */
+}
+
+#rock, #paper, #scissors {
+    flex: 1;
+}
+
+#score-card {
+    display: flex;
+    border-top: 5px double black;
+    flex: 3.5;
+    margin: 0 10px;
+}
+
+#player-score, #computer-score {
+    flex: 1;
+    /* border: 2px solid black; */
+    padding-top: 10px;
+    font-size: 26px;
+
+}
+
+#game-status {
+    flex: 1.2;
+    border-top: 5px double black;
+    margin: 0 10px;
+
+}
